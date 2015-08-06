@@ -25,7 +25,7 @@ var transporter = nodemailer.createTransport(smtpTransport({
     secure: true,
     auth: {
         user: '245292529',
-        pass: 'Geniushyc123'
+        pass: 'XXXX'
     }
 }));
  
@@ -34,8 +34,8 @@ var transporter = nodemailer.createTransport(smtpTransport({
  
 // setup e-mail data with unicode symbols 
 var mailOptions = {
-    from: '245292529@qq.com', // sender address 
-    to: 'tcsthyc2.student@sina.com', // list of receivers 
+    from: 'XXXX@XX.com', // sender address 
+    to: 'XXXX@XX.com', // list of receivers 
     subject: 'html', // Subject line 
     // text: 'Hello world teteteteteasddsads✔' // plaintext body 
     html: content // html body 
